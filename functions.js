@@ -2056,15 +2056,7 @@ var SEMICOLON = SEMICOLON || {};
 				return true;
 			}
 
-			if( $parallaxEl.length > 0 || $parallaxPageTitleEl.length > 0 || $parallaxPortfolioEl.length > 0 ) {
-				if( !SEMICOLON.isMobile.any() ){
-					skrollr.init({forceHeight: false});
-				} else {
-					$parallaxEl.addClass('mobile-parallax');
-					$parallaxPageTitleEl.addClass('mobile-parallax');
-					$parallaxPortfolioEl.addClass('mobile-parallax');
-				}
-			}
+			
 		},
 
 		animations: function(){
